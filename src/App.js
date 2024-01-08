@@ -115,7 +115,7 @@ function Home() {
         <p>
           <span className="address">
             <a href="https://maps.app.goo.gl/Mh6PXJpYPg4oJXHc8">
-              Via Canal Grande, 57, Faenza (Ravenna)
+              Via Canal Grande, 57, Faenza (Ra)
               📍
             </a>
           </span>
@@ -131,7 +131,7 @@ function Home() {
         <p>
           <span className="address">
             <a href="https://maps.app.goo.gl/wy6TrgTWbbWrjNB47">
-              Via Baccagnano, 37, Brisighella (Ravenna)
+              Via Baccagnano, 37, Brisighella (Ra)
               📍
             </a>
           </span>
