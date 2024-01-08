@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
-}
+@import url('./colors.css');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullscreen {
+  min-height: 100vh;
+  max-width: 100vmin;
+  margin: 0 4vmin;
+}
+
+.App {
+  text-align: center;
+  background-image: linear-gradient(to right, var(--col-bg), var(--col-bh));
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 10vmin;
+  color: var(--col-dr);
 }
 
-.App-link {
-  color: #61dafb;
+.smaller {
+  font-size: 8vmin;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.birds {
+  position: fixed!important;
+  width: 90vmin;
+  top: 0;
+  right: 0;
+}
+
+.people {
+  position: fixed!important;
+  width: 50vmin;
+  bottom: 0;
+  left: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .header-content {
+    animation: appear 4s ease-in-out
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: scale(0.1);
   }
+  95% {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.address {
+  font-size: 6vmin;
+}
+
+a {
+  text-decoration: none;
+  color: var(--col-dr)!important;
+  cursor: pointer;
+}
+p.users {
+  cursor: pointer;
+}
+.Mui-checked, .Mui-checkbox-root, .MuiSvgIcon-root {
+  color: var(--col-dr)!important;
+  font-size: 8vmin;
+}
+.button {
+  background: var(--col-el)!important;
+  color: var(--col-he)!important;
+  font-size: 2.5vmin!important;
+}
+
+.fixed {
+  position: fixed!important;
+  bottom: 2vh;
+  right: 2vw;
+}
+
+.bouncing {
+  animation: bounce ease-in-out 1s infinite;
+}
+
+.appearing {
+  animation: appear 4s ease-in-out
+}
+
+@keyframes bounce {
+  0% {
+    bottom: 2vh;
+  }
+  90% {
+    bottom: 4vh;
+  }
+  100% {
+    bottom: 2vh;
+  }
+}
+
+.payment {
+  width: 15vmax;
+  margin: 3vw;
+}
+
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.hidden {
+  animation: hide 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.notes {
+  width: 300px!important;
+}
+
+.noi {
+  background-image: url('/public/noi.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
 }

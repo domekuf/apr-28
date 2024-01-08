@@ -1,0 +1,38 @@
+:root {
+  --col-hi: #92a99c;
+  --col-dr: #aba096;
+  --col-he: #ad7e7a;
+  --col-bg: #fff5f5;
+  --col-bh: #ffffff;
+  --col-il: #a5ffcc;
+  --col-i2: #44ffab;
+  --col-el: #ffddc0;
+  --col-e2: #ffc490;
+}
+
+.col-hi {
+  font-size: 14vmin;
+  background-image: linear-gradient(to right, var(--col-hi), var(--col-i2));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.col-he {
+  font-size: 14vmin;
+  background-image: linear-gradient(to right, var(--col-he), var(--col-e2));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.col-ei {
+  font-size: 14vmin;
+  background-image: linear-gradient(to right, var(--col-e2), var(--col-i2));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
