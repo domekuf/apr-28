@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# What is this?
+
+A simple react web app I had to create for my marriage, during my first react approach.
+I used it to collect presence confirmation to that day.
+Backend is a node.js express application based on [this project](https://github.com/domekuf/express-docker/tree/lista-web-2)
+See live example [here](http://51.75.16.232:3000/demo)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
