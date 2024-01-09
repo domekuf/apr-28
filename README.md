@@ -1,9 +1,9 @@
 # What is this?
 
-A simple react web app I had to create for my marriage, during my first react approach.
-I used it to collect presence confirmation to that day.
-Backend is a node.js express application based on [this project](https://github.com/domekuf/express-docker/tree/lista-web-2)
-See live example [here](http://51.75.16.232:3000/demo)
+A simple react web app I had to create for my marriage, during my first approach to react.\
+I used it to collect presence confirmation to that day.\
+Backend is a node.js express application based on [this project](https://github.com/domekuf/express-docker/tree/lista-web-2).\
+See live example [here](https://apr-28.web.app/demo).
 
 ## Getting Started with Create React App
 
