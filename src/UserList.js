@@ -9,6 +9,7 @@ import DialogContentText from '@mui/material/DialogContentText';
 import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
 import Dialog from '@mui/material/Dialog';
+import FormControlLabel from '@mui/material/FormControlLabel';
 import Button from '@mui/material/Button';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -125,7 +126,7 @@ function UserList({ userList }) {
             <Table stickyHeader size="large">
               <TableHead>
                 <TableRow>
-                  <TableCell>Nome</TableCell>
+                  <TableCell>Presente</TableCell>
                   <TableCell>Celiachia</TableCell>
                   <TableCell>Lattosio</TableCell>
                   <TableCell>0-5 anni</TableCell>
@@ -139,7 +140,11 @@ function UserList({ userList }) {
                     key={user.line}
                   >
                     <TableCell component="th" scope="row">
-                      {user.name}
+                      <FormControlLabel
+                        control={<Checkbox
+                          checked={Boolean(userStates[user.line]?.checked)}
+                          onChange={() => {handleChange(user.line, 'checked')}}
+                        />} label={user.name} />
                     </TableCell>
                     <TableCell component="th" scope="row">
                       <Checkbox

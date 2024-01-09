@@ -123,7 +123,7 @@ function Home() {
         </section>
         <section className="fullscreen anchor c5">
         <p>
-          e dopo si va a
+          Dopo si va a
         </p>
         <p>
           Borgo Fregnano
@@ -152,8 +152,8 @@ function Home() {
       <section className="fullscreen anchor c7">
         <p>
           Non ci interessano regali,
-          ma solo far festa con voi.
-          Quindi se volete offrirci un gin tonic cliccate qua sotto.
+          ma solo far festa con voi,
+          quindi, se volete offrirci un gin tonic, cliccate qua sotto.
         </p>
         <a href="https://paypal.me/DDiIorio">
           <img alt="Paga con PayPal" className="payment" src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-color.svg">
